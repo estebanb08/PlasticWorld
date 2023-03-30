@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;    
+    border-color: black;
+    border-bottom: solid .3rem;
+    margin-bottom: 5rem;
+}
+
+.banner{
+    height: 25rem;
+}
+.tituloBanner{
+    font-family: 'Days One', sans-serif;
+    width: 60rem;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    background-color: rgb(172, 200, 223);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+li{
+    margin: 2rem;
+    
+}
+a{
+    text-decoration: none;
+}
+section{
+    text-decoration: none;
+}
+/* main{
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(228, 226, 223);
+} */
+h1{
+    text-align: center;
+    background-color: rgba(216, 216, 60, 0.425);
+    font-family: 'Days One', sans-serif;
+}
+.canastos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+.banquitos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+.mesas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+.vasos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+.articulosDeCocina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+.articulosDeLimpieza{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+
+
+
+.productos{
+    background-color: rgb(172, 194, 214);
+    width: 21rem;
+    height: auto;
+    padding: 1em;
+    margin: 2em;
+    align-items: center;
+}
+.productos{
+    border-radius: .5rem;
+}
+
+.productos:hover{
+    transform: scale(1.05);
+    transition: all 0.2s;
+    border-bottom: solid .5rem;
+    border-color: rgb(206, 206, 206);
+}
+.productos{
+    transition: all 0.3s;
+}
+
+.imagenProducto{
+    width: 100%;
+}
+
+.nombre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+.precio{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.numArticulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+
+}
+.cantPallet{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.bultoChico{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
