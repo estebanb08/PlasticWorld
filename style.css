@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    min-width: none;
 }
 header{
     padding: 4em;
@@ -14,29 +15,34 @@ header{
 }
 
 .banner{
-    height: 25rem;
+    width:15rem;
+
 }
 .tituloBanner{
     font-family: 'Days One', sans-serif;
     width: 60rem;
     background-color: rgb(255, 255, 255);
+
 }
 nav{
     background-color: rgb(172, 200, 223);
+
 }
 ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     list-style-type: none;
+
 }
 li{
     margin: 2rem;
     
 }
-a{
+a:link {
     text-decoration: none;
-}
+    color: #000;
+  }
 section{
     text-decoration: none;
 }
@@ -89,12 +95,22 @@ h1{
     flex-wrap: wrap;
     margin: 5rem;
 }
-
-
+.llaveros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+.portaSUBES{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
 
 .productos{
     background-color: rgb(172, 194, 214);
-    width: 21rem;
+    width: 21.2rem;
     height: auto;
     padding: 1em;
     margin: 2em;
